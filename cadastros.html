@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>SEXTOU! - Delivery de Bebidas</title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">
+                <div class="logo-sextou"><img class="logo-sextouhead" src="./src/logo-sextou.png" alt="logomarca sextou!"></div>
+            </h2>
+            <button class="botoes-header3" type="button">INÍCIO</button>
+            <button class="botoes-header4" type="button">PRODUTOS</button>
+            <button class="botoes-header2" type="button">CADASTRE-SE</button>
+            
+        </div>
+    </header>
+    <main>
+    <div class="oferta-blackfriday">
+
+        <h3 class="titulo-page">CADASTRO DE CLIENTES E PRODUTOS</h3>
+        
+        
+        
+    <div class="container-cadastro-dados"> 
+        <p class="titulo-cadastro">INSIRA SEUS DADOS PESSOAIS</p>
+        <form class="formulario" id="form">
+        <input type="text" name="nome" id="usuario-nome" class="inputs-cadastro" placeholder="Nome completo">
+        <input type="text" name="CPF" id="usuario-cpf" class="inputs-cadastro" placeholder="CPF">
+        <input type="email" name="email" id="usuario-email" class="inputs-cadastro" placeholder="E-mail">
+        <input type="text" name="Telefone/Celular" id="usuario-telefone" class="inputs-cadastro" placeholder="Telefone/Celular">
+        
+        <p class="titulo-cadastro">ENDEREÇO</p>
+        
+        <input type="text" name="CEP" id="cep" class="inputs-cadastro" placeholder="CEP">
+        <input type="text" name="Rua" id="rua" class="inputs-cadastro" placeholder="Rua">
+        <input type="text" name="Numero" id="numero" class="inputs-cadastro" placeholder="Numero">
+        <input type="text" name="Complemento" id="complemento" class="inputs-cadastro" placeholder="Complemento">
+        <input type="text" name="Cidade" id="cidade" class="inputs-cadastro" placeholder="Cidade">
+        <input type="text" name="Estado" id="estado" class="inputs-cadastro" placeholder="Estado">
+        <input type="submit" onclick="cadastraCliente()" class="botao-cadastrar" value="Cadastrar">
+
+        <p class="titulo-cadastro">PRODUTOS</p>
+
+        <input type="text" name="Nome" id="produto-nome" class="inputs-cadastro" placeholder="nome do produto">
+        <input type="text" name="Categoria" id="produto-categoria" class="inputs-cadastro" placeholder="categoria">
+        <input type="text" name="Marca" id="produto-marca" class="inputs-cadastro" placeholder="marca">
+        <input type="number" name="quantidade de produtos" id="qntd-produtos" class="inputs-cadastro" placeholder="Quantidade">
+        
+        <input type="submit" onclick="cadastraProduto()" class="botao-cadastrar" value="Cadastrar">
+
+        </form>
+    
+        
+    </div>
+    </div>
+        
+    </div>
+
+
+    </main>
+</body>
+<footer>
+
+<h3 class="text-bottom"> <a href="http://github.com/cadusousa-97" target="_blank" style="text-decoration: none; color: inherit;">DESIGNED BY CARLOS BARBOZA</h3>
+
+
+</footer>
+</html>
