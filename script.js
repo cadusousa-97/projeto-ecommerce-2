@@ -34,7 +34,7 @@ function cadastraCliente(){
     clientes.push(Registro);
 
     localStorage.setItem("clientes-cadastrados", JSON.stringify(clientes));
-    alert("Email inscrito com sucesso!")
+    alert("Cadastro concluído com sucesso!")
     nome.value = "";
     cpf.value = "";
     email.value = "";
